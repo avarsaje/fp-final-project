@@ -321,7 +321,7 @@ int main()
 
 
                break;
-            //show
+       
            case 3:
                    temp1=list;
                 while(temp1!=NULL)
@@ -344,7 +344,6 @@ int main()
                     if(lines==1)
                      {
                        fscanf(fp,"%d%d%d%s",&day1,&start_time1,&end_time1,name11);
-                       //printf("%d%d%d%s",day1,start_time1,end_time1,name11);
                        struct node* temp=create_node(day1,name11,start_time1,end_time1);
                         list=add_end(list,temp);
                         break;
@@ -371,7 +370,5 @@ int main()
             break;
             }
     }
-
-
 
 }
